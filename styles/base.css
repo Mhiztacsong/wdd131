@@ -1,0 +1,139 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    background-color: rgb(7, 51, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 1.5rem;
+    margin-bottom: 0%;
+    font-weight: 100;
+
+}
+
+.hnav {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hnav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;  
+}
+
+.card1 {
+    grid-column: 1/2;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    display: grid;
+}
+
+.about {
+    background-color:rgb(7, 51, 34);
+    margin-top: 0%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 1.5rem; 
+    color: white;
+}
+
+.card2 {
+    grid-column: 2/3;
+    border-radius: 10px;
+    margin: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+.webh2 {
+    background-color:rgb(7, 51, 34);
+    margin-top: 0%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 1.5rem;
+    color: white;
+}
+
+.web {
+    display: grid;
+    height: 200px;
+    align-items: center ;
+}
+
+.first img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 1.5px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0rem 1.5rem 1rem 1rem;
+}
+
+.first p {
+    margin: 2rem 0 1rem 1.5rem;
+    padding: 0;
+
+}
+
+.second p {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+figure {
+    float: left;
+    margin: 0.5rem 1.5rem 1rem 2rem;
+}
+
+figcaption {
+    margin-top: .5rem;
+    font-style: italic;
+}
+
+.nig {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 6rem ;
+    border-bottom: 1px solid rgb(7, 51, 34);
+}
+
+footer {
+    background-color: rgb(7, 51, 34);
+    color: white;
+    display: grid; 
+    justify-content: space-around;
+    padding: .5rem;
+}
+
+#lastModified {
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    color: yellow;
+    padding-left: 2.5rem;
+}
+
+.hnav a:hover {
+    color:rgba(29, 158, 197, 0.829);
+    border-bottom: 2px solid  rgb(7, 51, 34);
+}
+
+.web a:hover {
+    color: rgb(206, 15, 206);
+}
