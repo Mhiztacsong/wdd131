@@ -110,7 +110,7 @@ figcaption {
 .nig {
     display: flex;
     justify-content: center;
-    margin: 1rem 6rem ;
+    margin: 1rem 4rem ;
     border-bottom: 1px solid rgb(7, 51, 34);
 }
 
@@ -136,4 +136,29 @@ footer {
 
 .web a:hover {
     color: rgb(206, 15, 206);
+}
+
+/* Media query addition */
+@media screen and (max-width: 500px){
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .web,h1 {
+        padding-left: 1.5rem;
+    }
+
+    .webh2 {
+        align-self: center;
+    }
+
+    .card2 {
+        margin-left: 0.5rem;
+    }
 }
