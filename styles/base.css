@@ -1,3 +1,7 @@
+* {
+    margin-top: 0;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -157,7 +161,7 @@ footer p {
         display: grid;
         grid-template-columns: 1fr;
         display: block;
-        padding-top: 220px;
+        padding-top: 210px;
     }
 
     .webh2 {
@@ -178,5 +182,11 @@ footer p {
     
     figure {
         margin: .5rem 3rem;  
+    }
+    
+    .card1,
+    .card2 {
+        margin-right: 0.8rem;
+
     }
 }
