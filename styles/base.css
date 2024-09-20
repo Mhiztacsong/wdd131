@@ -147,7 +147,7 @@ footer p {
 }
 
 /* Media query addition */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
     body {
         display: grid;
         grid-template-columns: 1fr;
