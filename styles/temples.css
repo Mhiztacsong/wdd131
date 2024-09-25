@@ -6,6 +6,8 @@
 
 body {
     background-color: rgba(31, 34, 33, 0.925);
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -33,7 +35,6 @@ h2 {
 
 nav {
     margin: 1rem auto;
-    max-width: 700px;
 }
 
 #menu {
@@ -51,7 +52,7 @@ nav {
 }
 
 #menu.open::before {
-    content: "❌";
+    content: "✖";
 }
 
 .navigation {
@@ -86,7 +87,6 @@ main {
     margin: 0rem 2rem;
     padding: 2rem;
     justify-content: center;
-    /* border: 1px solid white; */
 }
 
 figure {
@@ -111,7 +111,7 @@ footer {
 footer p {
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0rem;
     color: white;
     padding: 0.5rem 1rem;
 }
