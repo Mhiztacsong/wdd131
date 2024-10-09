@@ -1,3 +1,12 @@
+:root {
+    --primary-color: blue ;
+    --secondary_color: yellow;
+}
+
+body {
+    font-family: "roboto", "sans-serif";
+}
+
 .hero {
     display: grid;
     grid-template-columns: 1fr;
@@ -6,12 +15,12 @@
 .hero img {
     width: 100%;
     height: auto;
-    border-bottom: 5px solid yellow;
+    border-bottom: 5px solid var(--secondary_color);
 }
 
 h1 {
-    background-color: blue;
-    border-bottom: 15px solid yellow;
+    background-color: var(--primary-color);
+    border-bottom: 15px solid var(--secondary_color);
     text-align: center;
     padding: 1rem;
     color: white;
@@ -76,7 +85,7 @@ span {
 }
 
 footer {
-    background-color: blue;
+    background-color: var(--primary-color);
     padding: .5rem;
 }
 
