@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Review Form</title>
+  <meta name="description" content="Product Review Form">
+  <meta name="author" content="Johnson Nsisong Gabriel">
+  <link href="styles/form.css" rel="stylesheet">
+  <script src="scripts/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Product Review Form</h1>
+  </header>
+  <main>
+    <form action="review.html" method="get" class="form">
+      
+      <!-- Product Name -->
+      <label>Product Name*
+      <select id="product" name="product" required>
+          <option value="" disabled selected>Choose a Product ...</option>
+      </select>
+      </label>
+
+      <!-- Overall Rating -->
+      <div class="rating">Overall Rating*</div>
+      <div class="star">
+          <label>&star;<input type="radio" id="rating1" name="rating" value="1" required></label>
+          <label>&star;&star;<input type="radio" id="rating2" name="rating" value="2" required></label>
+          <label>&star;&star;&star;<input type="radio" id="rating3" name="rating" value="3" required></label>
+          <label>&star;&star;&star;&star;<input type="radio" id="rating4" name="rating" value="4" required></label>
+          <label>&star;&star;&star;&star;&star;<input type="radio" id="rating5" name="rating" value="5" required></label>
+      </div>
+
+      <!-- Date of Installation -->
+      <label>Date of Installation* <input type="date" name="completedDate" required></label>
+
+      <!-- Useful Features -->    
+      <div class="note">Which features did you find useful in the product?</div>
+      <div class="note2">(check all that apply)</div>
+      <div class="boxes">
+        <label><input type="checkbox" id="feature1" name="features" value="Easy Setup">Easy Setup</label><br>
+        <label><input type="checkbox" id="feature2" name="features" value="Durable">Durable</label><br>
+        <label><input type="checkbox" id="feature3" name="features" value="Energy Efficient">Energy Efficient</label><br>
+        <label><input type="checkbox" id="feature4" name="features" value="Compact Design">Compact Design</label>
+      </div>  
+
+      <!-- Written Review -->
+      <div>
+          <label for="review">Written Review(optional)</label>
+          <textarea id="review" name="review" rows="5" placeholder="Share your experience..."></textarea>
+      </div>
+
+      <!-- User Name -->
+      <label>Your Name(Optional)<input type="text" id="user" name="userName"></label>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Post Review" >
+    </form>
+  </main>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> 🍁 Johnson Nsisong Gabriel 🍁 Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
+
