@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/scripts.js" defer></script>
 </head>
-<body>
+<body class="contact2">
     <header>
         <h1>Mental Health & Wellness</h1>
         <nav>
@@ -19,20 +19,21 @@
         </nav>
     </header>
     <main>
-        <h2>Contact Us</h2>
-        <form action="response.html" method="get">
-            <label>Name<input type="text" id="name" name="name" required></label>
+        <h2 class="contact">Contact Us</h2>
+        <form action="response.html" method="get" class="form">
+            <label>Name*<input type="text" id="name" name="name" required></label>
             
-            <label>Email<input type="email" id="email" name="email" required></label>
+            <label>Email*<input type="email" id="email" name="email" required></label>
 
-            <label for="message">Message:</label>
+            <label for="message">Message*</label>
             <textarea id="message" name="message" required></textarea>
 
             <input type="submit" value="Send Message">
         </form>
     </main>
     <footer>
-        <p>&copy; 2024 Mental Health & Wellness. All rights reserved.</p>
+        <p>&copy; <span id="currentyear"></span> 🍁 Johnson Nsisong Gabriel 🍁 Nigeria</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>

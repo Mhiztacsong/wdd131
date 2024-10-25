@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mental Health & Wellness</title>
+    <meta name="description" content="Mental Health & Wellness Final Site Project">
+    <meta name="author" content="Johnson Nsisong Gabriel">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Mental Health & Wellness</h1>
-        <nav>
+        <nav class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="resources.html">Resources</a></li>
@@ -18,13 +20,31 @@
             </ul>
         </nav>
     </header>
-    <main class="hero">
-        <img src="images/final-project-heroImage.webp" alt="Wellness" loading="lazy">
-        <h2>Welcome to Our Mental Health & Wellness Resource</h2>
-        <p>Your mental health is important. Explore our resources and reach out for help.</p>
+    <main>
+        <div class="hero">
+            <img src="images/hero-image.webp" alt="Wellness" loading="lazy">
+            <h2>Welcome to Our Mental Health & Wellness Resource</h2>
+            <p>Your mental health is important. Explore our resources and reach out for help.</p>
+        </div>
+
+        <section class="main-content">
+            <div class="resource-card">
+                <h3><a href="therapist.html">Find a Therapist</a></h3>
+                <p>Connect with licensed professionals to guide your mental health journey.</p>
+            </div>
+            <div class="resource-card">
+                <h3><a href="self-care.html">Self-Care Tips</a></h3>
+                <p>Daily practices that improve your mental well-being.</p>
+            </div>
+            <div class="resource-card">
+                <h3><a href="crisis.html">Crisis Support</a></h3>
+                <p>Immediate assistance for those in need of urgent help.</p>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Mental Health & Wellness. All rights reserved.</p>
+        <p>&copy; <span id="currentyear"></span> 🍁 Johnson Nsisong Gabriel 🍁 Nigeria</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
